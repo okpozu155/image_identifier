@@ -64,21 +64,15 @@ The output will display the model's answer:
 The answer is: <predicted_answer>
 
 File Structure
-
+<pre>
 image_identifier/
-
 │
-
 ├── Dockerfile           # Configuration for Docker image
-
 ├── app.py               # Core application logic (includes image_handler.py, image_loader.py, main.py and model.py)
-
 ├── requirements.txt     # List of dependencies
-
 ├── README.md            # Documentation
-
 └── images/              # Directory for input images
-        
+ </pre>       
 
 Model Details
 
